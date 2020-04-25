@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.shrey.doc3.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_medhistory"
+        android:name="com.shrey.doc3.MedicalHistoryFragment"
+        android:label="@string/menu_med_history"
+        tools:layout="@layout/fragment_medhistory" />
+
+    <fragment
+        android:id="@+id/nav_mydocs"
+        android:name="com.shrey.doc3.MyDoctorsFragment"
+        android:label="@string/menu_my_doctors"
+        tools:layout="@layout/fragment_mydocs" />
+
+    <fragment
+        android:id="@+id/nav_storesnearby"
+        android:name="com.shrey.doc3.StoresNearbyFragment"
+        android:label="@string/menu_stores_nearby"
+        tools:layout="@layout/fragment_storesnearby" />
+
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.shrey.doc3.ContactUsFragment"
+        android:label="@string/menu_contact_us"
+        tools:layout="@layout/fragment_contactus" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.shrey.doc3.LogOutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>

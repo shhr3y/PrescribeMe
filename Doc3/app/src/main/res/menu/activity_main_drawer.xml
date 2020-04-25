@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_medhistory"
+            android:icon="@drawable/medhist_icon"
+            android:title="@string/menu_med_history" />
+        <item
+            android:id="@+id/nav_mydocs"
+            android:icon="@drawable/mydocs_icon"
+            android:title="@string/menu_my_doctors" />
+        <item
+            android:id="@+id/nav_storesnearby"
+            android:icon="@drawable/nearby_icon"
+            android:title="@string/menu_stores_nearby" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/contactus_icon"
+                android:title="@string/menu_contact_us" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout_icon"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+
+</menu>
